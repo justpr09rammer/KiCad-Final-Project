@@ -1,0 +1,239 @@
+Info: Processing symbol 'C1:'.
+Info: Processing symbol 'U2:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'.
+Info: Processing symbol 'C2:'.
+Info: Processing symbol 'U3:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Info: Processing symbol 'C3:'.
+Info: Processing symbol 'U1:RF_Module:ESP-12E'.
+Info: Processing symbol 'C4:'.
+Info: Processing symbol 'SW1:'.
+Info: Processing symbol 'C5:'.
+Info: Processing symbol 'R11:'.
+Info: Processing symbol 'C6:'.
+Info: Processing symbol 'R10:'.
+Info: Processing symbol 'C7:'.
+Info: Processing symbol 'R9:'.
+Info: Processing symbol 'C8:'.
+Info: Processing symbol 'R8:'.
+Info: Processing symbol 'D1:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'R1:'.
+Info: Processing symbol 'Q3:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'R5:'.
+Info: Processing symbol 'R2:'.
+Info: Processing symbol 'R4:'.
+Info: Processing symbol 'J1:'.
+Info: Processing symbol 'R7:'.
+Info: Processing symbol 'D4:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'JP2:'.
+Info: Processing symbol 'D3:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'R6:'.
+Info: Processing symbol 'Q1:Package_TO_SOT_THT:TO-92_Inline'.
+Info: Processing symbol 'D2:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'Q2:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'R3:'.
+Info: Processing symbol 'U4:Package_DIP:DIP-4_W7.62mm'.
+Info: Processing symbol 'U5:'.
+Changed D1 value from D_DO-41_SOD81_P10.16mm_Horizontal to ~.
+Updated D1 symbol association from  to /94965244-0d9f-482c-b792-ee83c30b3e37.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'nihad.kicad_sch'.
+Updated D1 footprint filters to 'D*DO?41*'.
+Add net Net-(D1-A).
+Connected D1 pin 2 to Net-(D1-A).
+Add net Net-(D1-K).
+Connected D1 pin 1 to Net-(D1-K).
+Added D2 (footprint 'Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal').
+Changed REF** reference designator to D2.
+Changed D2 value from D_DO-41_SOD81_P10.16mm_Horizontal to ~.
+Updated D2 symbol association from  to /bf17eeed-eff0-4710-8803-14c86623394f.
+Updated D2 fields.
+Updated D2 sheetname to '/'.
+Updated D2 sheetfile to 'nihad.kicad_sch'.
+Updated D2 footprint filters to 'D*DO?41*'.
+Connected D2 pin 1 to Net-(D1-K).
+Add net Net-(D2-A).
+Connected D2 pin 2 to Net-(D2-A).
+Added D3 (footprint 'Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal').
+Changed REF** reference designator to D3.
+Changed D3 value from D_DO-41_SOD81_P10.16mm_Horizontal to 1N4007.
+Updated D3 symbol association from  to /5bdff522-8ec9-420d-939a-b20a93ca0bc6.
+Updated D3 fields.
+Updated D3 sheetname to '/'.
+Updated D3 sheetfile to 'nihad.kicad_sch'.
+Updated D3 footprint filters to 'D*DO?41*'.
+Connected D3 pin 1 to Net-(D2-A).
+Add net Net-(D3-A).
+Connected D3 pin 2 to Net-(D3-A).
+Added D4 (footprint 'Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal').
+Changed REF** reference designator to D4.
+Changed D4 value from D_DO-41_SOD81_P10.16mm_Horizontal to 1N4007.
+Updated D4 symbol association from  to /6792f850-254b-4642-9c43-3beef64ba7b0.
+Updated D4 fields.
+Updated D4 sheetname to '/'.
+Updated D4 sheetfile to 'nihad.kicad_sch'.
+Updated D4 footprint filters to 'D*DO?41*'.
+Connected D4 pin 2 to Net-(D3-A).
+Connected D4 pin 1 to Net-(D1-A).
+Added Q1 (footprint 'Package_TO_SOT_THT:TO-92_Inline').
+Changed REF** reference designator to Q1.
+Changed Q1 value from TO-92_Inline to BC548.
+Updated Q1 symbol association from  to /633c2105-ecbc-43f2-91de-59f41c47916a.
+Updated Q1 fields.
+Updated Q1 sheetname to '/'.
+Updated Q1 sheetfile to 'nihad.kicad_sch'.
+Updated Q1 footprint filters to 'TO?92*'.
+Add net Net-(Q1-C).
+Connected Q1 pin 1 to Net-(Q1-C).
+Add net Net-(Q1-B).
+Connected Q1 pin 2 to Net-(Q1-B).
+Add net GND.
+Connected Q1 pin 3 to GND.
+Added Q2 (footprint 'Package_TO_SOT_THT:TO-220-3_Vertical').
+Changed REF** reference designator to Q2.
+Changed Q2 value from TO-220-3_Vertical to BT136-500.
+Updated Q2 symbol association from  to /9fc26813-d9db-4a40-b90f-0cffc2ba4139.
+Updated Q2 fields.
+Updated Q2 sheetname to '/'.
+Updated Q2 sheetfile to 'nihad.kicad_sch'.
+Updated Q2 footprint filters to 'TO?220*'.
+Add net Net-(Q2-G).
+Connected Q2 pin 3 to Net-(Q2-G).
+Add net LOAD_1.
+Connected Q2 pin 1 to LOAD_1.
+Add net AC-IN-1.
+Connected Q2 pin 2 to AC-IN-1.
+Added Q3 (footprint 'Package_TO_SOT_THT:TO-220-3_Vertical').
+Changed REF** reference designator to Q3.
+Changed Q3 value from TO-220-3_Vertical to IRF9540N.
+Updated Q3 symbol association from  to /6e96a08a-7b26-4ead-a04b-b78b76660be4.
+Updated Q3 fields.
+Updated Q3 sheetname to '/'.
+Updated Q3 sheetfile to 'nihad.kicad_sch'.
+Updated Q3 footprint filters to 'TO?220*'.
+Add net +3.3V.
+Connected Q3 pin 2 to +3.3V.
+Add net Net-(Q3-G).
+Connected Q3 pin 1 to Net-(Q3-G).
+Add net CTRL_IN.
+Connected Q3 pin 3 to CTRL_IN.
+Add net PWM.
+Added U1 (footprint 'RF_Module:ESP-12E').
+Changed REF** reference designator to U1.
+Updated U1 symbol association from  to /dd33e108-b913-4623-babe-ff5a03036334.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'nihad.kicad_sch'.
+Updated U1 footprint filters to 'ESP?12*'.
+Add net unconnected-(U1-GPIO2-Pad17).
+Connected U1 pin 17 to unconnected-(U1-GPIO2-Pad17).
+Connected U1 pin 5 to PWM.
+Add net Net-(JP2-C).
+Connected U1 pin 22 to Net-(JP2-C).
+Connected U1 pin 16 to GND.
+Add net Net-(JP2-B).
+Connected U1 pin 21 to Net-(JP2-B).
+Add net GP0.
+Connected U1 pin 18 to GP0.
+Add net unconnected-(U1-SCLK-Pad14).
+Connected U1 pin 14 to unconnected-(U1-SCLK-Pad14).
+Add net unconnected-(U1-MISO-Pad10).
+Connected U1 pin 10 to unconnected-(U1-MISO-Pad10).
+Add net unconnected-(U1-GPIO10-Pad12).
+Connected U1 pin 12 to unconnected-(U1-GPIO10-Pad12).
+Add net Net-(U1-EN).
+Connected U1 pin 3 to Net-(U1-EN).
+Connected U1 pin 8 to +3.3V.
+Add net unconnected-(U1-CS0-Pad9).
+Connected U1 pin 9 to unconnected-(U1-CS0-Pad9).
+Add net unconnected-(U1-GPIO5-Pad20).
+Connected U1 pin 20 to unconnected-(U1-GPIO5-Pad20).
+Add net unconnected-(U1-GPIO9-Pad11).
+Connected U1 pin 11 to unconnected-(U1-GPIO9-Pad11).
+Add net unconnected-(U1-GPIO16-Pad4).
+Connected U1 pin 4 to unconnected-(U1-GPIO16-Pad4).
+Add net unconnected-(U1-GPIO12-Pad6).
+Connected U1 pin 6 to unconnected-(U1-GPIO12-Pad6).
+Add net unconnected-(U1-MOSI-Pad13).
+Connected U1 pin 13 to unconnected-(U1-MOSI-Pad13).
+Connected U1 pin 7 to unconnected-(U1-GPIO13-Pad7).
+Add net unconnected-(U1-GPIO4-Pad19).
+Connected U1 pin 19 to unconnected-(U1-GPIO4-Pad19).
+Add net Net-(U1-~{RST}).
+Connected U1 pin 1 to Net-(U1-~{RST}).
+Connected U1 pin 15 to GND.
+Add net unconnected-(U1-ADC-Pad2).
+Connected U1 pin 2 to unconnected-(U1-ADC-Pad2).
+Added U2 (footprint 'Package_SO:SOIC-8_3.9x4.9mm_P1.27mm').
+Changed REF** reference designator to U2.
+Changed U2 value from SOIC-8_3.9x4.9mm_P1.27mm to NE555D.
+Updated U2 symbol association from  to /1e1e9757-b173-48a6-a83f-547e67703883.
+Updated U2 fields.
+Updated U2 sheetname to '/'.
+Updated U2 sheetfile to 'nihad.kicad_sch'.
+Updated U2 footprint filters to 'SOIC*3.9x4.9mm*P1.27mm*'.
+Connected U2 pin 6 to CTRL_IN.
+Connected U2 pin 8 to +3.3V.
+Connected U2 pin 4 to +3.3V.
+Add net Net-(U2-CV).
+Connected U2 pin 5 to Net-(U2-CV).
+Add net Net-(U2-TR).
+Connected U2 pin 2 to Net-(U2-TR).
+Connected U2 pin 1 to GND.
+Connected U2 pin 7 to CTRL_IN.
+Add net Net-(U2-Q).
+Connected U2 pin 3 to Net-(U2-Q).
+Add net unconnected-(U1-GPIO13-Pad7).
+Added U3 (footprint 'Package_TO_SOT_SMD:SOT-223-3_TabPin2').
+Changed REF** reference designator to U3.
+Changed U3 value from SOT-223-3_TabPin2 to AMS1117-3.3.
+Updated U3 symbol association from  to /90917d2b-3e5c-417d-9297-0f4cf94fa6bf.
+Updated U3 fields.
+Updated U3 sheetname to '/'.
+Updated U3 sheetfile to 'nihad.kicad_sch'.
+Updated U3 footprint filters to 'SOT?223*TabPin2*'.
+Connected U3 pin 1 to GND.
+Connected U3 pin 2 to +3.3V.
+Connected U3 pin 2 to +3.3V.
+Add net +5V.
+Connected U3 pin 3 to +5V.
+Added D1 (footprint 'Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal').
+Added U4 (footprint 'Package_DIP:DIP-4_W7.62mm').
+Changed REF** reference designator to U4.
+Changed U4 value from DIP-4_W7.62mm to PC817.
+Updated U4 symbol association from  to /416266e0-17e3-4dff-89bc-1ed57fecb36c.
+Updated U4 fields.
+Updated U4 sheetname to '/'.
+Updated U4 sheetfile to 'nihad.kicad_sch'.
+Updated U4 footprint filters to 'DIP*W7.62mm*'.
+Connected U4 pin 1 to Net-(D1-K).
+Connected U4 pin 3 to Net-(U2-TR).
+Connected U4 pin 2 to Net-(D3-A).
+Connected U4 pin 4 to +3.3V.
+Changed REF** reference designator to D1.
+Error: Cannot add R8 (no footprint assigned).
+Error: Cannot add C7 (no footprint assigned).
+Error: Cannot add R9 (no footprint assigned).
+Error: Cannot add C6 (no footprint assigned).
+Error: Cannot add R10 (no footprint assigned).
+Error: Cannot add C5 (no footprint assigned).
+Error: Cannot add R11 (no footprint assigned).
+Error: Cannot add C4 (no footprint assigned).
+Error: Cannot add SW1 (no footprint assigned).
+Error: Cannot add C2 (no footprint assigned).
+Error: Cannot add C3 (no footprint assigned).
+Error: Cannot add R2 (no footprint assigned).
+Error: Cannot add R4 (no footprint assigned).
+Error: Cannot add R1 (no footprint assigned).
+Error: Cannot add R5 (no footprint assigned).
+Error: Cannot add JP2 (no footprint assigned).
+Error: Cannot add R6 (no footprint assigned).
+Error: Cannot add J1 (no footprint assigned).
+Error: Cannot add C1 (no footprint assigned).
+Error: Cannot add R7 (no footprint assigned).
+Error: Cannot add C8 (no footprint assigned).
+Error: Cannot add R3 (no footprint assigned).
+Error: Cannot add U5 (no footprint assigned).
+Error: Symbol U3 has pins with no number.  These pins can not be matched to pads in Package_TO_SOT_SMD:SOT-223-3_TabPin2.
+
+
+Info: Total warnings: 0, errors: 24.

@@ -1,0 +1,81 @@
+
+(rules PCB nihad.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.8)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D1-A)" "Net-(D1-K)" "Net-(D2-A)" "Net-(D3-A)" "Net-(Q1-C)" "Net-(Q1-B)" GND "Net-(Q2-G)"
+    "LOAD_1" "AC-IN-1" +3.3V "Net-(Q3-G)" "CTRL_IN" "unconnected-(U1-GPIO2-Pad17)" PWM "Net-(JP2-C)"
+    "Net-(JP2-B)" GP0 "unconnected-(U1-SCLK-Pad14)" "unconnected-(U1-MISO-Pad10)" "unconnected-(U1-GPIO10-Pad12)" "Net-(U1-EN)" "unconnected-(U1-CS0-Pad9)" "unconnected-(U1-GPIO5-Pad20)"
+    "unconnected-(U1-GPIO9-Pad11)" "unconnected-(U1-GPIO16-Pad4)" "unconnected-(U1-GPIO12-Pad6)" "unconnected-(U1-MOSI-Pad13)" "unconnected-(U1-GPIO13-Pad7)" "unconnected-(U1-GPIO4-Pad19)" "Net-(U1-~{RST})" "unconnected-(U1-ADC-Pad2)"
+    "Net-(U2-CV)" "Net-(U2-TR)" "Net-(U2-Q)" +5V
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
